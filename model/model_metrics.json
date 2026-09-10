@@ -1,0 +1,302 @@
+{
+  "best_model": "Logistic Regression",
+  "metrics": {
+    "accuracy": 0.72,
+    "macro_precision": 0.6959821428571429,
+    "macro_recall": 0.7078639930252834,
+    "macro_f1": 0.7008721534990159,
+    "per_class": {
+      "Critical": {
+        "precision": 0.8285714285714286,
+        "recall": 0.7733333333333333,
+        "f1": 0.8
+      },
+      "High": {
+        "precision": 0.6785714285714286,
+        "recall": 0.6666666666666666,
+        "f1": 0.672566371681416
+      },
+      "Medium": {
+        "precision": 0.5625,
+        "recall": 0.5806451612903226,
+        "f1": 0.5714285714285714
+      },
+      "Low": {
+        "precision": 0.7142857142857143,
+        "recall": 0.8108108108108109,
+        "f1": 0.759493670886076
+      }
+    },
+    "confusion_matrix": [
+      [
+        58,
+        13,
+        4,
+        0
+      ],
+      [
+        11,
+        38,
+        5,
+        3
+      ],
+      [
+        1,
+        3,
+        18,
+        9
+      ],
+      [
+        0,
+        2,
+        5,
+        30
+      ]
+    ]
+  },
+  "all_model_metrics": {
+    "Random Forest": {
+      "accuracy": 0.695,
+      "macro_precision": 0.6650249094202899,
+      "macro_recall": 0.6814902338671439,
+      "macro_f1": 0.6695106638219105,
+      "per_class": {
+        "Critical": {
+          "precision": 0.859375,
+          "recall": 0.7333333333333333,
+          "f1": 0.7913669064748201
+        },
+        "High": {
+          "precision": 0.6166666666666667,
+          "recall": 0.6491228070175439,
+          "f1": 0.6324786324786325
+        },
+        "Medium": {
+          "precision": 0.4666666666666667,
+          "recall": 0.45161290322580644,
+          "f1": 0.45901639344262296
+        },
+        "Low": {
+          "precision": 0.717391304347826,
+          "recall": 0.8918918918918919,
+          "f1": 0.7951807228915663
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          17,
+          3,
+          0
+        ],
+        [
+          7,
+          37,
+          9,
+          4
+        ],
+        [
+          2,
+          6,
+          14,
+          9
+        ],
+        [
+          0,
+          0,
+          4,
+          33
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.72,
+      "macro_precision": 0.6959821428571429,
+      "macro_recall": 0.7078639930252834,
+      "macro_f1": 0.7008721534990159,
+      "per_class": {
+        "Critical": {
+          "precision": 0.8285714285714286,
+          "recall": 0.7733333333333333,
+          "f1": 0.8
+        },
+        "High": {
+          "precision": 0.6785714285714286,
+          "recall": 0.6666666666666666,
+          "f1": 0.672566371681416
+        },
+        "Medium": {
+          "precision": 0.5625,
+          "recall": 0.5806451612903226,
+          "f1": 0.5714285714285714
+        },
+        "Low": {
+          "precision": 0.7142857142857143,
+          "recall": 0.8108108108108109,
+          "f1": 0.759493670886076
+        }
+      },
+      "confusion_matrix": [
+        [
+          58,
+          13,
+          4,
+          0
+        ],
+        [
+          11,
+          38,
+          5,
+          3
+        ],
+        [
+          1,
+          3,
+          18,
+          9
+        ],
+        [
+          0,
+          2,
+          5,
+          30
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "accuracy": 0.68,
+      "macro_precision": 0.6563708406740282,
+      "macro_recall": 0.6662166750791538,
+      "macro_f1": 0.6593802976945067,
+      "per_class": {
+        "Critical": {
+          "precision": 0.7887323943661971,
+          "recall": 0.7466666666666667,
+          "f1": 0.7671232876712328
+        },
+        "High": {
+          "precision": 0.5964912280701754,
+          "recall": 0.5964912280701754,
+          "f1": 0.5964912280701754
+        },
+        "Medium": {
+          "precision": 0.5357142857142857,
+          "recall": 0.4838709677419355,
+          "f1": 0.5084745762711864
+        },
+        "Low": {
+          "precision": 0.7045454545454546,
+          "recall": 0.8378378378378378,
+          "f1": 0.7654320987654321
+        }
+      },
+      "confusion_matrix": [
+        [
+          56,
+          18,
+          1,
+          0
+        ],
+        [
+          13,
+          34,
+          6,
+          4
+        ],
+        [
+          2,
+          5,
+          15,
+          9
+        ],
+        [
+          0,
+          0,
+          6,
+          31
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.725,
+      "macro_precision": 0.6884914167753151,
+      "macro_recall": 0.6817471971122225,
+      "macro_f1": 0.6829140934270644,
+      "per_class": {
+        "Critical": {
+          "precision": 0.8333333333333334,
+          "recall": 0.8666666666666667,
+          "f1": 0.8496732026143791
+        },
+        "High": {
+          "precision": 0.6610169491525424,
+          "recall": 0.6842105263157895,
+          "f1": 0.6724137931034483
+        },
+        "Medium": {
+          "precision": 0.5416666666666666,
+          "recall": 0.41935483870967744,
+          "f1": 0.4727272727272727
+        },
+        "Low": {
+          "precision": 0.717948717948718,
+          "recall": 0.7567567567567568,
+          "f1": 0.7368421052631579
+        }
+      },
+      "confusion_matrix": [
+        [
+          65,
+          10,
+          0,
+          0
+        ],
+        [
+          11,
+          39,
+          4,
+          3
+        ],
+        [
+          2,
+          8,
+          13,
+          8
+        ],
+        [
+          0,
+          2,
+          7,
+          28
+        ]
+      ]
+    }
+  },
+  "training_samples": 800,
+  "test_samples": 200,
+  "features_used": [
+    "customer_tier",
+    "product",
+    "product_category",
+    "product_criticality",
+    "issue_type",
+    "channel",
+    "current_severity",
+    "sla_target_hours",
+    "sla_remaining_hours",
+    "sla_breached",
+    "reopen_count",
+    "customer_contact_count",
+    "production_impact",
+    "business_impact",
+    "affected_users_estimate",
+    "security_related",
+    "customer_sentiment",
+    "urgency_keywords",
+    "waiting_time_hours",
+    "status",
+    "assigned_team",
+    "previous_escalation"
+  ],
+  "random_state": 42
+}
